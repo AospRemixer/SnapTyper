@@ -12,8 +12,9 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Rectangle Fill="#f0f6ff" HorizontalAlignment="Left" StrokeThickness="0" Height="450" Stroke="Black" VerticalAlignment="Top" Width="800" Margin="0,0,0,-0.4" RadiusY="15.5" RadiusX="15.5"/>
-        <Button Content="X" FontSize="24" Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="755,10,0,0" VerticalAlignment="Top" Width="34" Height="34" FontFamily="Segoe UI Black" Click="Button_Click"/>
+        <Button Content="X" FontSize="24" Background="Transparent" BorderThickness="0" HorizontalAlignment="Left" Margin="755,10,0,0" VerticalAlignment="Top" Width="34" Height="34" Foreground="#0067ff" FontFamily="Segoe UI Black" Click="Button_Click"/>
         <Button Margin="247,304,247,53.6" Name="StrtBtn" Click="StrtBtn_Click">
+            
             <Button.Template>
                 <ControlTemplate>
                     <Rectangle Fill="#cce0ff" Margin="0,4,-2.4,0" RadiusY="20.8" RadiusX="20.8" Stroke="#abcdff" StrokeThickness="3" Cursor="Hand">
@@ -21,7 +22,8 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <TextBox HorizontalAlignment="Left" Height="157" Name="mainTxt" Margin="125,115,0,0" TextWrapping="Wrap" PreviewMouseDown="TxtEnterMouse" BorderThickness="0" Background="Transparent" Foreground="#61a1ff" FontSize="32" Text="TextBox" VerticalAlignment="Top" Width="550" FontFamily="Comic Sans MS"/>
+        <TextBox HorizontalAlignment="Left" Height="157" Name="mainTxt" Margin="125,115,0,0" TextWrapping="Wrap" PreviewMouseDown="TxtEnterMouse" BorderThickness="0" Background="Transparent" Foreground="#b3d1ff" FontSize="32" Text="Type here..." VerticalAlignment="Top" Width="550" FontFamily="Comic Sans MS"/>
+        <TextBlock HorizontalAlignment="Left" Margin="351,317,0,0" Foreground="White" FontSize="50" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Start"/></TextBlock>
 
     </Grid>
 </Window>
